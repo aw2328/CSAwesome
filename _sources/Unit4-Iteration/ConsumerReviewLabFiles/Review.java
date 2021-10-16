@@ -92,6 +92,7 @@ public class Review {
     try
     {
       return sentiment.get(word.toLowerCase());
+      double value = Review.sentimentVal("terrible");
     }
     catch(Exception e)
     {
